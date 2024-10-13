@@ -1086,19 +1086,6 @@ Tab50:AddButton({
 	 end
 })
 
-local Tab50 = Window:MakeTab({
-	Name = "Bind",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab50:AddButton({
-	Name = "Shoot",
-	Callback = function()
-			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Chained.shoot, game.Players.LocalPlayer.Character.Humanoid):Play()
-	 end
-})
-
 local Tab51 = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
