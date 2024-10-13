@@ -634,3 +634,476 @@ Tab32:AddButton({
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Glovel.Backflip, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
+
+local Tab33 = Window:MakeTab({
+	Name = "Frostbite",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab33:AddButton({
+	Name = "Froozen",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Hie[Froozen_1], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab33:AddButton({
+	Name = "Ice Age",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Hie[iceage_anim], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab34 = Window:MakeTab({
+	Name = "Sbeve",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab34:AddButton({
+	Name = "Fold",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Steve.fold, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab34:AddButton({
+	Name = "Fold Loop",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Steve[fold_loop], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab35 = Window:MakeTab({
+	Name = "Golem",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab35:AddButton({
+	Name = "Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Golem.idle, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab35:AddButton({
+	Name = "Walk",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Golem.walk, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab35:AddButton({
+	Name = "Punch",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Golem.punch, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab35:AddButton({
+	Name = "Ability",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Golem.ability, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab35:AddButton({
+	Name = "Spawn",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Golem.spawn, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab36 = Window:MakeTab({
+	Name = "Spoonful",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab36:AddButton({
+	Name = "Jump",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Divine.Jump, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab36:AddButton({
+	Name = "Float",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Divine.float, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab36:AddButton({
+	Name = "Dash",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Divine.dash, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab37 = Window:MakeTab({
+	Name = "Grab",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab37:AddButton({
+	Name = "Grab",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Grab.Grab, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab37:AddButton({
+	Name = "Throw",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Grab.Throw, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab38 = Window:MakeTab({
+	Name = "El Gato",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab38:AddButton({
+	Name = "Pet Cat",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Cat["pet_cat"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab38:AddButton({
+	Name = "Pet Player",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Cat["pet_plr"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab38:AddButton({
+	Name = "Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Cat.idle, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab38:AddButton({
+	Name = "Run",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Cat.run, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab39 = Window:MakeTab({
+	Name = "Avatar",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab39:AddButton({
+	Name = "Hatch In",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Avatar.animations["hatch_in"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab39:AddButton({
+	Name = "Hatch Out",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Avatar.animations["hatch_out"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab39:AddButton({
+	Name = "Model Hatch In",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Avatar.animations["model_hatch_in"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab39:AddButton({
+	Name = "Model Hatch Out",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Avatar.animations["model_hatch_out"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab40 = Window:MakeTab({
+	Name = "Siphon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab40:AddButton({
+	Name = "Throw",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Siphon.Throw, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab41 = Window:MakeTab({
+	Name = "Hive",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab41:AddButton({
+	Name = "Stun 1",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Hive.stunanim, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab41:AddButton({
+	Name = "Stun 2",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Hive["stunanim2"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab42 = Window:MakeTab({
+	Name = "Shotgun",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab42:AddButton({
+	Name = "Shoot",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Shotgun.animations.shoot, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab42:AddButton({
+	Name = "Reload",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Shotgun.animations.reload, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab42:AddButton({
+	Name = "Merchant Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Shotgun.animations["merchant_idle"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab43 = Window:MakeTab({
+	Name = "Demolition",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab43:AddButton({
+	Name = "C4 Plant",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["c4"].anims.c4plant, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab43:AddButton({
+	Name = "Spike Plant",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["c4"].anims.spikeplant, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab43:AddButton({
+	Name = "Defuse",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["c4"].anims.defuse, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab44 = Window:MakeTab({
+	Name = "Water",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab44:AddButton({
+	Name = "Slip",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Water.anims.slip, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab45 = Window:MakeTab({
+	Name = "64",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab45:AddButton({
+	Name = "Run",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["64"].anims.run, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab45:AddButton({
+	Name = "Jump",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["64"].anims.jump, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab45:AddButton({
+	Name = "Double Jump",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["64"].anims.doublejump, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab45:AddButton({
+	Name = "Dive",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["64"].anims.dive, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab45:AddButton({
+	Name = "Ground Pound",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["64"].anims.groundpound, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab46 = Window:MakeTab({
+	Name = "Boxer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab46:AddButton({
+	Name = "Hit 1",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations["hit1"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab46:AddButton({
+	Name = "Hit 2",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations["hit2"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab46:AddButton({
+	Name = "Hit 3",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations["hit3"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab46:AddButton({
+	Name = "Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations.idle, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab46:AddButton({
+	Name = "Walk",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations.walk, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab46:AddButton({
+	Name = "Dodge",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Boxing.animations.dodge, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab47 = Window:MakeTab({
+	Name = "Roguelike",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab47:AddButton({
+	Name = "Dodge",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Roguelike.animations.dodge, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab48 = Window:MakeTab({
+	Name = "MATERIALIZE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab48:AddButton({
+	Name = "Ability Intro",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.MATERIALIZE.Intro, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab48:AddButton({
+	Name = "Ability Loop",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.MATERIALIZE.Loop, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab49 = Window:MakeTab({
+	Name = "Meteor",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab49:AddButton({
+	Name = "Ability Punch",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Meteor.PunchAnimation, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab50 = Window:MakeTab({
+	Name = "Bind",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab50:AddButton({
+	Name = "Shoot",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Chained.shoot, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab50:AddButton({
+	Name = "Stun",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Chained.Stun, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab50 = Window:MakeTab({
+	Name = "Bind",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab50:AddButton({
+	Name = "Shoot",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Chained.shoot, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab51 = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab51:AddParagraph("Credits","Made By Nexer1234 on Youtube. My discord user is @Nexer1234")
+Tab51:AddParagraph("ID's","If you're subscribed, i will send you all ID's of these animations. Dm me in discord.")
