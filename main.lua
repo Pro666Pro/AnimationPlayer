@@ -141,85 +141,72 @@ local Tab9 = Window:MakeTab({
 })
 
 Tab9:AddButton({
-	Name = "Floss [ LOOPED, RESET TO STOP ]",
+	Name = "Floss",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Floss, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Groove [ LOOPED, RESET TO STOP ]",
+	Name = "Groove",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Groove, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Headless [ LOOPED, RESET TO STOP ]",
+	Name = "Headless",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Headless, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Helicopter [ LOOPED, RESET TO STOP ]",
+	Name = "Helicopter",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Helicopter, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Kick [ LOOPED, RESET TO STOP ]",
+	Name = "Kick",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Kick, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "L [ LOOPED, RESET TO STOP ]",
+	Name = "L",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.L, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Laugh [ LOOPED, RESET TO STOP ]",
+	Name = "Laugh",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Laugh, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Parker [ LOOPED, RESET TO STOP ]",
+	Name = "Parker",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Parker, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Spasm [ LOOPED, RESET TO STOP ]",
+	Name = "Spasm",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Spasm, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
 Tab9:AddButton({
-	Name = "Thriller [ LOOPED, RESET TO STOP ]",
+	Name = "Thriller",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.AnimationPack.Thriller, game.Players.LocalPlayer.Character.Humanoid):Play()
-	 end
-})
-
-local Tab10 = Window:MakeTab({
-	Name = "Rob",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab10:AddButton({
-	Name = "Rob Ability Animation",
-	Callback = function()
-			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.robAnimation, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
@@ -487,7 +474,7 @@ Tab26:AddButton({
 })
 
 Tab26:AddButton({
-	Name = "Ice Skating [ LOOPED, RESET TO STOP ]",
+	Name = "Ice Skating",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets["Ice Skate"].SkateLoop, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
