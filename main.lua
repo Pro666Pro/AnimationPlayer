@@ -308,19 +308,6 @@ Tab16:AddButton({
 	 end
 })
 
-local Tab17 = Window:MakeTab({
-	Name = "Tinkerer",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab17:AddButton({
-	Name = "Tinkerer Ability",
-	Callback = function()
-			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Technician.Animation, game.Players.LocalPlayer.Character.Humanoid):Play()
-	 end
-})
-
 local Tab18 = Window:MakeTab({
 	Name = "Parry",
 	Icon = "rbxassetid://4483345998",
@@ -612,6 +599,13 @@ Tab31:AddButton({
 	Name = "Beatdown Idle",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Beatdown["idle_anim"], game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab31:AddButton({
+	Name = "Player Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Beatdown["plr_idle"], game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
@@ -1083,6 +1077,53 @@ Tab50:AddButton({
 	Name = "Stun",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Chained.Stun, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab52 = Window:MakeTab({
+	Name = "Alchemist",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab52:AddButton({
+	Name = "Drink",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage["Alchemist Assets"].Animations.Drink, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab52:AddButton({
+	Name = "Throw",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage["Alchemist Assets"].Animations.Throw, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab52:AddButton({
+	Name = "Interact",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage["Alchemist Assets"].Animations.Interact, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab52:AddButton({
+	Name = "Eat",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage["Alchemist Assets"]["Birthday Cake"].Eat, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+local Tab53 = Window:MakeTab({
+	Name = "Null",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab53:AddButton({
+	Name = "Drink",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.Anim, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
