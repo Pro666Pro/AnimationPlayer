@@ -501,7 +501,7 @@ Tab27:AddButton({
 })
 
 Tab27:AddButton({
-	Name = "Pan Man Idle [ LOOPED, RESET TO STOP ]",
+	Name = "Pan Man Idle",
 	Callback = function()
 			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Pan["panman_idleswing"], game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
