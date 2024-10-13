@@ -1093,4 +1093,5 @@ local Tab51 = Window:MakeTab({
 })
 
 Tab51:AddParagraph("Credits","Made By Nexer1234 on Youtube. My discord user is @Nexer1234")
-Tab51:AddParagraph("ID's","If you're subscribed, i will send you all ID's of these animations. Dm me in discord.")
+Tab51:AddParagraph("ID's","If you're subscribed, i will send you all ID's of these animations. Dm me in discord or ping in youtube.")
+Tab51:AddParagraph("Bugs","Yeah, i arleady know that half of these animations don't work.")
