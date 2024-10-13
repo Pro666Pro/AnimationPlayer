@@ -1121,9 +1121,44 @@ local Tab53 = Window:MakeTab({
 })
 
 Tab53:AddButton({
-	Name = "Drink",
+	Name = "Imp Climb",
 	Callback = function()
-			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.Anim, game.Players.LocalPlayer.Character.Humanoid):Play()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.Climb, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab53:AddButton({
+	Name = "Imp Jump",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.Jump, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab53:AddButton({
+	Name = "Imp Cling",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.Cling, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab53:AddButton({
+	Name = "Arm Grab",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.ArmGrab, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab53:AddButton({
+	Name = "Imp Idle",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.idle, game.Players.LocalPlayer.Character.Humanoid):Play()
+	 end
+})
+
+Tab53:AddButton({
+	Name = "Imp Walk",
+	Callback = function()
+			 game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(game.ReplicatedStorage.Assets.Null.walk, game.Players.LocalPlayer.Character.Humanoid):Play()
 	 end
 })
 
@@ -1133,6 +1168,5 @@ local Tab51 = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab51:AddParagraph("Credits","Made By Nexer1234 on Youtube. My discord user is @Nexer1234")
-Tab51:AddParagraph("ID's","If you're subscribed, i will send you all ID's of these animations. Dm me in discord or ping in youtube.")
+Tab51:AddParagraph("Credits","Made By Nexer1234 on Youtube.")
 Tab51:AddParagraph("Bugs","Yeah, i arleady know that half of these animations don't work.")
